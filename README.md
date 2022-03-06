@@ -13,6 +13,8 @@ The project should be loaded into localhose:8080 by default.
 
 ## Implementation
 ### Server
-Node.js. Express as the middleware
+  - Node.js. 
+  - Express as the middleware
 ### Client
-Vue 2 and Vuetify
+ - Vue 2
+ - Vuetify (for styling)
