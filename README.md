@@ -1,7 +1,7 @@
 # impact-bio
 
 ## Server
-To run server on a command line run "yarn start".
+To run server, on a commandline run "yarn start".
 
 ## Client
 To run client, on the portal folder run "yarn serve"
