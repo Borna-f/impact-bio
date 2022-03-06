@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "name": "borna",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "version": "1.0.0",
+  "description": "Impact Bio Interview Task",
+  "main": "Server.ts",
+  "repository": "localhost",
+  "author": "Borna",
+  "license": "MIT",
+  "private": false
+}
