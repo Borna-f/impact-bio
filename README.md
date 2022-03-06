@@ -3,10 +3,10 @@
 Note: This project requires NodeJS to be installed on your machine.
 
 ## Server
-To run server, on a command line run "yarn start".
+To run server, in a command line and on root run "yarn start".
 
 ## Client
-To run client, on the portal folder run "yarn serve" on command line.
+To run client, on the portal folder run "yarn serve" in a command line.
 The project should be loaded into localhose:8080 by default.
 
 
