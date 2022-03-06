@@ -1,6 +1,6 @@
 # impact-bio
 
-Note: This project requires NodeJS to be installed on your machine.
+Note: This project requires NodeJS and yarn to be installed on your machine.
 
 ## Server
 To run server, in a command line and on root run "yarn start".
