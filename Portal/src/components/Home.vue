@@ -18,9 +18,7 @@
         ></v-progress-circular>
       </v-card-actions>
     </v-card>
-    
-
-    <v-card v-if="result || error">
+    <v-card class="mt-5" v-show="result || error">
       <v-card-title> Result </v-card-title>
       <v-card-text>
         <div v-if="error">
@@ -63,11 +61,13 @@ export default {
       try {
         const response = await SendRequest.ProcessSentence(this.sentence);
         this.result = response.data;
-        this.loading = false;
       } catch (err) {
         this.error = err.message;
+      } finally{
+        this.sentence = "";
+        this.loading = false;
       }
-      this.sentence = "";
+      
     },
   },
 };
